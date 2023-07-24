@@ -1,18 +1,7 @@
-<h1 align="center">
-  <img src="https://github.com/Dreamacro/clash/raw/master/docs/logo.png" alt="Clash" width="200">
-  ShellClash
-</h1>
+# ShellClash rules
 
-
-  <p align="center">
-	<a target="_blank" href="https://github.com/Dreamacro/clash/releases">
-    <img src="https://img.shields.io/github/release/Dreamacro/Clash.svg?style=flat-square&label=Clash">
-  </a>
-  <a target="_blank" href="https://github.com/juewuy/ShellClash/releases">
-    <img src="https://img.shields.io/github/release/juewuy/ShellClash.svg?style=flat-square&label=ShellClash&colorB=green">
-  </a>
-</p>
-
+[![](https://img.shields.io/github/release/Dreamacro/Clash.svg?style=flat-square&label=Clash)](https://github.com/Dreamacro/clash/releases)
+[![](https://img.shields.io/github/release/juewuy/ShellClash.svg?style=flat-square&label=ShellClash&colorB=green)](https://github.com/juewuy/ShellClash/releases)
 
 ## 简介：
 
@@ -42,6 +31,8 @@
 ```
 https://api.v1.mk/sub?target=clash&insert=true&new_name=true&scv=true&udp=true&exclude=&include=&url=在此处填写您的订阅地址&config=https://github.com/UlinoyaPed/ShellClash/raw/master/rules/ShellClash.ini
 ```
+
+**不用为节点倍率填写排除，内部已经将各类型节点分类好**
 
 ## ShellClash 功能：
 
