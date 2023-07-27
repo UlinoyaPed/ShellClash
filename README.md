@@ -6,21 +6,20 @@
 ## 简介：
 
 - 本存储库是 ShellClash `rules` 个人修改版
-- 目前仅修改了 `/rules/ShellClash.ini` 一个文件（因为只用到这一个）
-
-  
+- 目前仅修改了 `/rules/ShellClash.ini` 一个文件
+- 所有修改都是按照我自己的胃口来的，不一定适合每个人
 
 ## 有何不同：
 
 - 添加：
   - 阿根廷、土耳其节点分组
   - 普通节点
-    - 匹配标注**`1`倍** 和 **未标注倍数**的节点
+    - 匹配标注 **`1`倍** 和 **未标注倍数**的节点
 - 修改
   - 省流节点
-    - 匹配**`0.1~0.9`倍** 和 **`0.01~0.99`倍**的节点
+    - 匹配 **`0.1~0.9`倍** 和 **`0.01~0.99`倍**的节点
   - 高级节点
-    - 匹配**`1.1~9.9`倍** 和 **`>=2`倍**的整数倍节点
+    - 匹配 **`1.1~9.9`倍** 和 **`>=2`倍** 的整数倍节点
   - 其他分组的**顺序**
   - 个别分组的`emoji`**图标**
 
@@ -28,8 +27,16 @@
 
 ## 使用方法：
 
+补全`&url=`（注意`target=clash`参数填自己的软件类型）
+
 ```
-https://api.v1.mk/sub?target=clash&insert=true&new_name=true&scv=true&udp=true&exclude=&include=&url=在此处填写您的订阅地址&config=https://github.com/UlinoyaPed/ShellClash/raw/master/rules/ShellClash.ini
+https://api.tsutsu.one/sub?target=clash&insert=true&new_name=true&scv=true&udp=true&exclude=&include=&url=在此处填写您的订阅地址&config=https://github.com/UlinoyaPed/ShellClash/raw/master/rules/ShellClash.ini
+```
+
+如果你想获得最新功能（和最新Bug），可以使用`dev`分支
+
+```
+https://api.tsutsu.one/sub?target=clash&insert=true&new_name=true&scv=true&udp=true&exclude=&include=&url=在此处填写您的订阅地址&config=https://github.com/UlinoyaPed/ShellClash/raw/dev/rules/ShellClash.ini
 ```
 
 **不用为节点倍率填写排除，内部已经将各类型节点分类好**
