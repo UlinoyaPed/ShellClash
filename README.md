@@ -7,6 +7,8 @@
 
 - 本存储库是 ShellClash `rules` 个人修改版
 - 目前仅修改了 `/rules/ShellClash.ini` 一个文件
+  - 也就是[这个](https://github.com/UlinoyaPed/ShellClash/raw/master/rules/ShellClash.ini) `https://github.com/UlinoyaPed/ShellClash/raw/master/rules/ShellClash.ini`
+
 - 所有修改都是按照我自己的胃口来的，不一定适合每个人
 
 ## 有何不同：
