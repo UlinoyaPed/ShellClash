@@ -25,17 +25,19 @@
   - 其他分组的**顺序**
   - 个别分组的`emoji`**图标**
 
-不保证完全无`Bug`，有问题发[**issue**](https://github.com/UlinoyaPed/ShellClash/issues)
+不保证完全无Bug，有问题发[**issue**](https://github.com/UlinoyaPed/ShellClash/issues)
 
 ## 使用方法：
 
-补全`&url=`（注意`target=clash`参数填自己的软件类型）
+### 打开 [订阅转换-sub.v1.mk](https://sub.v1.mk) [^1]
 
-```
-https://api.tsutsu.one/sub?target=clash&insert=true&new_name=true&scv=true&udp=true&exclude=&include=&url=在此处填写您的订阅地址&config=https://github.com/UlinoyaPed/ShellClash/raw/master/rules/ShellClash.ini
-```
+[^1]: 感谢 [肥羊](https://github.com/youshandefeiyang) 在 [sub-web-modify](https://github.com/youshandefeiyang/sub-web-modify/) 和 [在线订阅转换](https://sub.v1.mk) 中收录本规则
 
-如果你想获得最新功能（和最新Bug），可以使用`dev`分支
+### 其中远程配置选择 全网搜集规则 - ShellClash修改版规则 (by UlinoyaPed)
+
+[![](https://raw.githubusercontent.com/youshandefeiyang/webcdn/main/sub-web-modify.GIF)](https://sub.v1.mk)
+
+* 如果你想获得最新功能（和最新Bug），可以使用`dev`分支
 
 ```
 https://api.tsutsu.one/sub?target=clash&insert=true&new_name=true&scv=true&udp=true&exclude=&include=&url=在此处填写您的订阅地址&config=https://github.com/UlinoyaPed/ShellClash/raw/dev/rules/ShellClash.ini
