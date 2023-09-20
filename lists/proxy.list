@@ -1,1 +1,4 @@
+# 代理规则
+
 DOMAIN-SUFFIX,dash.cloudflare.com
+DOMAIN-SUFFIX,revanced.net
